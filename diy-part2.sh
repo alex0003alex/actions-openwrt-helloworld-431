@@ -7,6 +7,7 @@
 # Author: P3TERX
 # Blog: https://p3terx.com
 #============================================================
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
