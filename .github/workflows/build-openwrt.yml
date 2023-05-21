@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
@@ -33,7 +33,6 @@ env:
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
   
-
 jobs:
   build:
     runs-on: ubuntu-20.04
